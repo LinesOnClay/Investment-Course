@@ -6,7 +6,7 @@
 # IMPORTANT: Use "MM-DD-YYYY" or "YYYY-MM-DD" format for start_date_str
 # Example: "01-01-2001" for January 1, 2001.
 start_date_str <- "01-01-2012" # User's requested start date
-end_date <- "05-01-2014"
+end_date <- Sys.Date()
 
 # Enter any FRED or Yahoo Finance symbols here. UP TO SIX.
 symbols_to_get <- c("SPY","PCM","AGG","LQD") # From Yahoo Finance
