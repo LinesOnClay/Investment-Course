@@ -3,7 +3,7 @@
 
 # If data_source is "stock": asset_symbol should be a stock/ETF ticker (e.g., "SPY", "AAPL")
 # If data_source is "fred": (Not fully supported for growth of $100 in this version)
-asset_symbol <- "VUG"
+asset_symbol <- "SPY"
 
 # Start and End dates for fetching data
 # For longer horizons (e.g., 20 years), ensure start_date_input is far enough back.
